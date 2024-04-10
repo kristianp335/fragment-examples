@@ -1,0 +1,49 @@
+#title {
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+.file-size {
+  margin-bottom: 1rem;
+}
+
+
+.card-image {
+	padding: 20px;
+	background-color: var(--brand-color-4);
+}
+
+.image-holder {
+	height: 470px !important;
+	display: flex;
+  align-items: center;
+	background-color: var(--brand-color-4);
+}
+
+
+#paragraph-clamp-lines {
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+.clamp-mime {
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1;
+   -webkit-box-orient: vertical;
+}
+
+.component-card:hover {
+	background-color: red;
+}
+

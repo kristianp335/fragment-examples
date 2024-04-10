@@ -1,0 +1,24 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "defaultValue": "#FFFFFF",
+                    "label": "Background Color Picker",
+                    "name": "backgroundColor",
+                    "type": "colorPicker"
+									
+                },
+							  {
+                    "label": "select-content",
+                    "name": "itemSelector1",
+                    "type": "itemSelector",
+                    "typeOptions": {
+                        "enableSelectTemplate": true
+                    }
+                }
+                ],
+                "label": "card-options"
+            }
+        ]
+    }

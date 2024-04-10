@@ -1,0 +1,10 @@
+{
+  "configurationPath": "configuration.json",
+  "jsPath": "index.js",
+  "htmlPath": "index.html",
+  "cssPath": "index.css",
+  "icon": "slideshow",
+  "name": "8-3 Aspect Banner slider",
+  "thumbnailPath": "thumbnail.png",
+  "type": "section"
+}
