@@ -1,0 +1,113 @@
+@media screen and (max-width: 3000px) {
+  .holder {
+    max-width: 1600px;
+		padding-left: 500px;		
+  }
+	.holder .list-unstyled {
+	 min-width: 400px;
+	 max-width: 1600px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   }
+	
+}
+
+@media screen and (max-width: 1580px) {
+  .holder {
+    max-width: 1600px;
+		padding-left: 300px;		
+  }
+	.holder .list-unstyled {
+	 min-width: 400px;
+	 max-width: 1600px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   }
+	
+}
+
+.hiding-div {
+	position: absolute;
+	z-index: 50;
+	width: 30px;
+	height: 30px;
+	margin-left: -5px;
+	background-color: var(--black);	
+}
+
+@media screen and (max-width: 1024px) {
+	.fragment_1488 {
+		min-height: 500px;
+	}
+  .holder {
+    max-width: 800px;
+		min-height: 500px;
+		padding-left: 30px;		
+  }
+	.holder .list-unstyled {
+	 min-width: 400px;
+	 max-width: 800px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   }
+	
+}
+
+@media screen and (max-width: 750px) {
+	.fragment_1488 {
+		min-height: 600px;
+	}
+  .holder {
+    max-width: 750px;
+		padding-left: 30px;	
+		min-height: 600px;
+  }
+	.holder .list-unstyled {
+	 min-width: 460px;
+	 max-width: 750px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   }
+	
+}
+
+
+.fragment_1488 button {
+	visibility: hidden;
+}
+
+.holder {
+	z-index: 20;
+	background-color: transparent;
+	border: none;
+	overflow: hidden;
+	box-shadow: none;
+}
+
+.holder .dropdown-section {
+   width: 220px;
+	 height: 70px;
+	 padding: 1rem;
+	 margin: 0.2rem;
+	 background-color: var(--black);
+}
+
+.holder .dropdown-section:hover {
+	 background-color: var(--brand-color-1);
+}
+
+.holder .dropdown-section:hover .hiding-div {
+	 background-color: var(--brand-color-1);
+}
+
+.active-background {
+	background-color: var(--brand-color-2) !important;
+}
+
+.active-background .hiding-div {
+	background-color: var(--brand-color-2) !important;
+}
+
+.holder .custom-control-label-text { 
+	 color: #ffffff;
+}
