@@ -1,0 +1,16 @@
+
+
+
+
+.fragmentHideShowCat .c-empty-state-text  {
+    color: #0A5E9D;
+    max-width: 240px; 
+    width: 240px;
+    margin: auto;
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: x-large;
+    padding: 1rem;
+	
+}
