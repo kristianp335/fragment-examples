@@ -1,6 +1,22 @@
+function waitForElement(selector, callback) {
+  const intervalId = setInterval(() => {
+    if (fragmentElement.querySelector(selector)) {
+			var selectElement = fragmentElement.querySelector(selector);
+			selectElement.click();
+			var categoriesListId = selectElement.getAttribute('aria-controls');
+			var categoriesList = document.getElementById(categoriesListId);
+			categoriesList.style.left = "0px";
+      if (categoriesList.querySelectorAll('.dropdown-section')) {
+			clearInterval(intervalId);
+      callback();
+			}
+    }
+  }, 500);
+}
 
-
-setTimeout(moveMenu, 2000);
+waitForElement("button", () => {
+ moveMenu();
+});
 
 function moveMenu() {
 	var selectElement = fragmentElement.querySelector("button");
@@ -8,7 +24,7 @@ function moveMenu() {
 	selectElement.click();
 	var categoriesListId = selectElement.getAttribute('aria-controls');
   var categoriesList = document.getElementById(categoriesListId);
-	const addDivs = categoriesList.querySelectorAll('.dropdown-section')
+	const addDivs = categoriesList.querySelectorAll('.dropdown-section');
 
 	addDivs.forEach(addDiv => {
         const newDiv = document.createElement('div');
