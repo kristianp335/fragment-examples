@@ -4,7 +4,7 @@
   "htmlPath": "index.html",
   "cssPath": "index.css",
   "icon": "blogs",
-  "name": "Flexible Display Page",
+  "name": "FlexibleCard Collection Display",
   "thumbnailPath": "thumbnail.png",
   "type": "component"
 }

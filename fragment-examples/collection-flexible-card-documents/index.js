@@ -4,7 +4,6 @@ title.innerHTML = title.innerHTML.slice(0,60);
 let cardImage = fragmentElement.id + "cardImage";
 let mimeTypeDiv = fragmentElement.id + "mimeType";
 let mimeType = document.getElementById(mimeTypeDiv).innerText;
-
 let fileSize = fragmentElement.id + "fileSize";
 let fileSizeValue = document.getElementById(fileSize).innerText;
 

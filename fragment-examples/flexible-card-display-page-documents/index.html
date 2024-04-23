@@ -1,34 +1,42 @@
-<div class="component-card text-break card--container--size">
-	<div id="${fragmentElementId}flexibleCard"class="card m-0" >
-		<div class="position-relative w-100 h-100 image-holder">
-			<img id="${fragmentElementId}cardImage" alt="" class="mw-100 mh-100 card-image" data-lfr-editable-id="01-img" data-lfr-editable-type="image" src="/documents/d/guest/sony_default_missing_image-1" />
-		</div>
-		
-		<div data-lfr-styles class="card-body py-4" style="background-color: ${configuration.backgroundColor};" >
-			<h4>
+
+	<div id="${fragmentElementId}flexibleCard" class="text-center">
+	
+		 <div class="text-center" style="background-color: ${configuration.backgroundColor};" >
+			<h2>
 				<span class="clearfix" id="title" data-lfr-editable-id="02-title" data-lfr-editable-type="rich-text" style="line-clamp:2;">
 					Card Title example
 				</span>
-			</h4>
+			</h2>
+		</div>
+		<div class="image-container display-card">
+			<img id="${fragmentElementId}cardImage" class="card-image drop-shadow" alt=""  data-lfr-editable-id="01-img" data-lfr-editable-type="image" src="/documents/d/guest/sony_default_missing_image-1" />
+		</div>
+		 
+		<div class="d-flex flex-row justify-content-center text-top" >
 			
-			<div id="${fragmentElementId}mimeType" class="clamp-mime">
-				<span class="label label-secondary" data-lfr-editable-id="mime-type" data-lfr-editable-type="text">Set a mimeType</span>
+		
+		
+			<div id="${fragmentElementId}mimeType">
+				<span class="label label-secondary label-lg" data-lfr-editable-id="mime-type" data-lfr-editable-type="text">Set a mimeType</span>
 			</div>
+			 
 			<div>
-				
-			<div>
-			<span class="label label-success" id="${fragmentElementId}fileName" data-lfr-editable-id="file-name" data-lfr-editable-type="text">
+			<span class="label label-success label-lg" id="${fragmentElementId}fileName" data-lfr-editable-id="file-name" data-lfr-editable-type="text">
 				Set file name
 			</span>
 			</div>
-				
-			<span class="label label-success file-size" id="${fragmentElementId}fileSize" data-lfr-editable-id="file-size" data-lfr-editable-type="text">
+			<div>	
+			<span class="label label-success file-size label-lg" id="${fragmentElementId}fileSize" data-lfr-editable-id="file-size" data-lfr-editable-type="text">
 				Set size
 			</span>
 			</div>
-			<a class="btn btn-primary" data-lfr-editable-id="04-link" data-lfr-editable-type="link" href="" id="fragment-${fragmentEntryLinkNamespace}-04-link">
-				Go Somewhere
-			</a>
-		</div>
+		  <div class="clearfix mb-4 .text-center">		
+			<span id="publishedDate" class="label label-secondary label-lg" data-lfr-editable-id="published-date" data-lfr-editable-type="text">
+				Set a date
+			</span>
+			</div>
 	</div>
+		
 </div>
+
+
