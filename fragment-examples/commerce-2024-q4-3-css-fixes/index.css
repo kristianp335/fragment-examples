@@ -1,0 +1,19 @@
+
+
+.product-card-tiles {
+	  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.product-card {
+	  margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.add-to-cart-wrapper .quantity-selector {
+	  border: 1px var(--brand-color-2) solid; 
+}
+
+.input-group .input-group-item .input-group-inset-after.form-control {
+	  border: 1px var(--brand-color-2) solid; 
+}
